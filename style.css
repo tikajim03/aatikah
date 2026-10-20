@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: rgb(139, 93, 209);
+    background-color: rgb(2, 26, 43);
+
+}
+
+/* 3. LAYOUT CONTAINER */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* 4. HEADER DAN NAVIGASI  */
+header {
+    background-color: rgb(136, 205, 205);
+    color: brown;
+    padding: 25px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgb(12, 12, 20);
+}
+
+
+header h1 { 
+    font-size: 2rem;
+    margin-bottom: 5px;
+
+}
+
+header p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    margin-bottom: 15px;
+
+}
+
+nav {
+    margin-top: 10px;
+    font-size: 0.95rem;
+
+}
+
+nav a {
+    color: rgb(241, 244, 243);
+    text-decoration: none;
+    padding: 6px 14px;
+    margin: 0 2px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+}
+
+nav a :hover, nav a . :active {
+    background-color: rgb(19, 17, 17);
+    font-weight: bold;
+}
