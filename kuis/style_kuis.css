@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: black;
+    background-color: rgb(252, 251, 250);
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+tr td {
+    border: 1px solid;
+    padding: 8px;
+}
+
+td {
+    background-color: white;
+}
+
+tr {
+    background-color: aqua;
+}

@@ -7,8 +7,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: rgb(139, 93, 209);
-    background-color: rgb(2, 26, 43);
+    color: rgb(4, 4, 6);
+    background-color: rgb(238, 243, 247);
 
 }
 
@@ -22,11 +22,11 @@ body {
 
 /* 4. HEADER DAN NAVIGASI  */
 header {
-    background-color: rgb(136, 205, 205);
-    color: brown;
+    background-color: rgb(68, 71, 71);
+    color: rgb(210, 203, 203);
     padding: 25px 0;
     text-align: center;
-    box-shadow: 0 2px 8px rgb(12, 12, 20);
+    box-shadow: 0 2px 8px rgb(88, 88, 147);
 }
 
 
@@ -59,7 +59,7 @@ nav a {
 
 }
 
-nav a :hover, nav a . :active {
-    background-color: rgb(19, 17, 17);
+nav a:hover, nav a.active { 
+    background-color: rgb(62, 15, 15);
     font-weight: bold;
 }
